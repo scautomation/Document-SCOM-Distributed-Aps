@@ -12,6 +12,7 @@ The script will also accept optional parameters -saveandclose (boolean) -path (s
 All commands are executed remotely. Excel is obviously required. The account you specify needs to have remote Powershell access to the SCOM environment.
 
 # How to Run the Script
+
 Here are some examples of running the script with parameters
 
 ![run script command](2018-08-27-11-02-30.png)
@@ -28,22 +29,25 @@ If you don’t specify credentials it will prompt for your credentials
 
 ![credentials](2018-08-27-11-04-09.png)
 
-
-
 # Example Lab Outputs
+
 Here is example output from my SCOM Lab.
+
+![gif output](2018-02-19_22-24-33.gif)
 
 The main sheet where all Distributed Applications will be put with their Management Pack and SCOM Object ID.
 
+## GIF output
+
 ![excel example](2018-08-27-11-05-13.png)
 
-HyperV Lab
+## HyperV Lab
+
 ![excel output](2018-08-27-11-06-02.png)
 
-Windows Azure Pack
+## Windows Azure Pack
+
 ![excel output](2018-08-27-11-06-41.png)
-
-
 
 # Testing Notes
 
@@ -52,3 +56,5 @@ The script has been tested in a production environment with approximately 88 dis
 Definitely test it in your lab first. Use at your own risk. The script does not modify any data in your environment, its only getting data. However, it will put load on your SDK service for each call it makes.
 
 Tested on SCOM 2016 and 1801 and Excel 2016. It should work in SCOM 2012 R2, if you try it and it does work please let me know.
+
+related blog post <https://www.systemcenterautomation.com/2018/02/document-your-scom-distributed-applications/>
