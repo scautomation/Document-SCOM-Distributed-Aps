@@ -33,11 +33,11 @@ If you don’t specify credentials it will prompt for your credentials
 
 Here is example output from my SCOM Lab.
 
+## GIF output
+
 ![gif output](2018-02-19_22-24-33.gif)
 
 The main sheet where all Distributed Applications will be put with their Management Pack and SCOM Object ID.
-
-## GIF output
 
 ![excel example](2018-08-27-11-05-13.png)
 
