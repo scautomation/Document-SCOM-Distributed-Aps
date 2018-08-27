@@ -15,19 +15,19 @@ All commands are executed remotely. Excel is obviously required. The account you
 
 Here are some examples of running the script with parameters
 
-![run script command](2018-08-27-11-02-30.png)
+![run script command](images/2018-08-27-11-02-30.png)
 
-![run script command](2018-08-27-11-01-49.png)
+![run script command](images/2018-08-27-11-01-49.png)
 
-![fun script command](2018-08-27-10-58-18.png)
+![fun script command](images/2018-08-27-10-58-18.png)
 
-![run script command](2018-08-27-11-00-51.png)
+![run script command](images/2018-08-27-11-00-51.png)
 
 If you don’t specify credentials it will prompt for your credentials
 
-![specify credentials](2018-08-27-11-03-40.png)
+![specify credentials](images/2018-08-27-11-03-40.png)
 
-![credentials](2018-08-27-11-04-09.png)
+![credentials](images/2018-08-27-11-04-09.png)
 
 # Example Lab Outputs
 
@@ -35,19 +35,19 @@ Here is example output from my SCOM Lab.
 
 ## GIF output
 
-![gif output](2018-02-19_22-24-33.gif)
+![gif output](images/2018-02-19_22-24-33.gif)
 
 The main sheet where all Distributed Applications will be put with their Management Pack and SCOM Object ID.
 
-![excel example](2018-08-27-11-05-13.png)
+![excel example](images/2018-08-27-11-05-13.png)
 
 ## HyperV Lab
 
-![excel output](2018-08-27-11-06-02.png)
+![excel output](images/2018-08-27-11-06-02.png)
 
 ## Windows Azure Pack
 
-![excel output](2018-08-27-11-06-41.png)
+![excel output](images/2018-08-27-11-06-41.png)
 
 # Testing Notes
 
