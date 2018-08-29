@@ -322,10 +322,7 @@ $Excel.Saved = $True
 $Excel.Close() 
 $doc.quit()
 
-
-
-
-   }
+}
 
 #cleanup COM Objects
 [System.GC]::Collect()
@@ -334,7 +331,6 @@ $doc.quit()
 [System.Runtime.Interopservices.Marshal]::ReleaseComObject($worksheet)
 [System.Runtime.Interopservices.Marshal]::ReleaseComObject($Excel)
 [System.Runtime.Interopservices.Marshal]::ReleaseComObject($doc)
-
 
 Remove-Variable -Name mainsheet
 Remove-Variable -Name worksheet
