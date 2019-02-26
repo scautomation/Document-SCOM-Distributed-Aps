@@ -70,7 +70,7 @@ You will need to manually save the report.
 
 		# Mandatory credentials for access SCOM Remotely
         [parameter(Mandatory=$true)]
-        [securestring]$credential, 
+        [System.Management.Automation.PSCredential]$credential, 
 
         # Optional use this if you want to save the document produced
         [parameter(Mandatory=$false)]
